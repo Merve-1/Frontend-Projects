@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sign In</title>
+
+        <!-- Swiper css link -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        
+        <link rel="icon" type="image/png" href="Images/logo.png">
+
+
+        <!-- font link -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+        
+        <!-- css file -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- header section starts  --> 
+        <header class="header">
+            <section class="flex">
+                <a href="#home" class="logo">Edu.</a>
+
+                <nav class="navbar">
+                    <a href="index.html">Home</a>
+                    <a href="index.html">About</a>
+                    <a href="index.html">Courses</a>
+                    <a href="index.html">Instructors</a>
+                    <label class="toggle" for="mode">
+                        <input type="checkbox" id="mode" class="form-check-input">
+                        <div class="toggle__fill"></div>
+                    </label>
+                    
+                </nav>
+                
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </section>
+        </header>
+        <!-- header section ends  -->
+        <!-- sign in section starts -->
+        <section class="contact2" id ="contact">
+            <h1 class="heading"><span>Sign</span> In</h1>
+            <div class="row">
+                
+                <form action="" method="post">
+                    <span>Enter Your Email Or Username</span>
+                    <input type="email" required placeholder="Enter your email" maxlength="50" name="email" class="box">
+                    <span>Enter Your Password</span>
+                    <input type="password" required placeholder="Enter your password" maxlength="50" name="password" class="box">
+                    <a href="yourPage.html"><input type="sumbit" value="Sign In" class="btn" name="send"></a>
+                </form>
+            </div>
+        </section>
+        <!-- sign in section ends -->
+
+        
+
+        <!--footer section starts-->
+        <footer class="footer">
+            <section>
+                <div class="share">
+                    <a href="#"class="fab fa-facebook-f"></a>
+                    <a href="#"class="fab fa-twitter"></a>
+                    <a href="#"class="fab fa-linkedin"></a>
+                    <a href="#"class="fab fa-instagram"></a>
+                    <a href="#"class="fab fa-youtube"></a>
+                </div>
+                <div class="credit">&copy; copyright @2023 by <span>MMM</span> | all rights reserved!</div>
+            </section>
+
+        </footer>
+        <!--footer section ends-->
+
+        <!--swiper js link-->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+        <!-- js file -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
