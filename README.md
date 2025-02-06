@@ -63,7 +63,5 @@ This repository contains an interactive frontend for an educational website. The
 - User's personal profile.
 - Displays the user’s name, email, and enrolled courses.
 
-## Light and Dark Mode
 
-Users can switch between light and dark modes using a toggle button available on all pages. The styles are managed through separate CSS files:
 
