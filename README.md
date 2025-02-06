@@ -1,4 +1,4 @@
-# Educational Website
+![image](https://github.com/user-attachments/assets/d62901f1-a439-4a58-9f4c-e84aaf981bac)# Educational Website
 
 This repository contains an interactive frontend for an educational website. The website includes pages for Home, About, Courses, Instructors, and a Sign-up/Sign-in form. Additionally, it features user profile functionality and supports both light and dark modes.
 
@@ -18,16 +18,17 @@ This repository contains an interactive frontend for an educational website. The
 ## Demo
 
 - **Light Mode**:
+  
+  ![image](https://github.com/user-attachments/assets/42e8acf3-6e4c-40bb-9847-ccaa8d8ee3d9)
 
-  ![Light Mode](https://github.com/Merve-1/Educational-Website-Frontend/blob/main/Images/MAIN1.png?raw=true)
 
 - **Dark Mode**:
 
-  ![Dark Mode](https://github.com/Merve-1/Educational-Website-Frontend/blob/main/Images/MAIN2.png?raw=true)
+![image](https://github.com/user-attachments/assets/ef7b04df-8656-4f04-bdf1-558f8d419bd7)
 
 - **Profile Page**:
 
-  ![Profile](https://github.com/Merve-1/Educational-Website-Frontend/blob/main/Images/profile.png?raw=true)
+![image](https://github.com/user-attachments/assets/86c23dfb-f3bb-46b9-bc95-b4e8db0fbe11)
 
 ## Technologies Used
 
