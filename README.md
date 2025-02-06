@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d62901f1-a439-4a58-9f4c-e84aaf981bac)# Educational Website
+# Educational Website
 
 This repository contains an interactive frontend for an educational website. The website includes pages for Home, About, Courses, Instructors, and a Sign-up/Sign-in form. Additionally, it features user profile functionality and supports both light and dark modes.
 
