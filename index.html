@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Edu.</title>
+
+        <!-- Swiper css link -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        
+        <link rel="icon" type="image/png" href="Images/logo.png">
+
+
+        <!-- font link -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+        
+        <!-- css file -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- header section starts  --> 
+        <header class="header">
+            <section class="flex">
+                <a href="#home" class="logo">Edu.</a>
+
+                <nav class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#courses">Courses</a>
+                    <a href="#instructor">Instructors</a>
+                    <a href="signUp.html">Sign Up</a>
+                    <label class="toggle" for="mode">
+                        <input type="checkbox" id="mode" class="form-check-input">
+                        <div class="toggle__fill"></div>
+                    </label>
+                    
+                </nav>
+                
+                <div id="menu-btn" class="fas fa-bars"></div>
+            </section>
+        </header>
+        <!-- header section ends  --> 
+        
+        <!-- home section starts -->
+        <section class="home" id="home">
+            <div class="row">
+                <div class="content">
+                    <h3>Edu.</h3>
+                    <a href="#contact" class="btn">Contact Us</a>
+                </div>
+                <div class="image">
+                    <img src="Images/home.png" atl="">
+                </div>
+            </div>
+        </section>
+
+        <!-- home section ends -->
+
+        <!-- counter section starts -->
+        <section class="count">
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="content">
+                        <h3>50+</h3>
+                        <p>Courses</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-user-graduate"></i>
+                    <div class="content">
+                        <h3>2000+</h3>
+                        <p>Students</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-chalkboard-user"></i>
+                    <div class="content">
+                        <h3>100+</h3>
+                        <p>Instructor</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-face-smile"></i>
+                    <div class="content">
+                        <h3>100%</h3>
+                        <p>Satisfaction</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- counter section ends -->
+
+        <!-- about section starts -->
+        <section class="about" id="about">
+            <div class="row">
+                <div class="image">
+                    <img src="Images/about.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Why choose us?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+                    <p>Sapiente quaerat facere vel placeat, culpa atque.</p>
+                    <a href="#contact" class="btn">Contact us</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- about section ends -->
+
+
+        <!-- courses section starts-->
+        <section class="courses" id="courses">
+            <h1 class="heading">
+                Our <span> Courses</span>
+            </h1>
+            <div class="swiper course-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <a href="course5.html"><img src="Images/java1.png" alt=""></a>
+                        <h3>Java</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, molestias.</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <a href="course2.html"><img src="Images/web.png" alt=""></a>
+                        <h3>Web development</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, molestias.</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <a href="course4.html"><img src="Images/python.png" alt=""></a>
+                        <h3>Python</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, molestias.</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <a href="course3.html"><img src="Images/security.png" alt=""></a>
+                        <h3>Secuirty</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, molestias.</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <a href="course1.html"><img src="Images/graphic.png" alt=""></a>
+                        <h3>Graphic design</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, molestias.</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <a href="course6.html"><img src="Images/haskell.png" alt=""></a>
+                        <h3>Haskell</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, molestias.</p>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- courses section ends-->
+
+
+        <!--instructor section starts-->
+        <section class="instructor" id="instructor">
+            <h1 class="heading">Expert <span> Tutors</span></h1>
+            <div class=" swiper instructor-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide">
+                        <img src="Images/instructor1.jpg" alt="">
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+
+                        </div>
+                        <h3>Willim</h3>
+                        
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="Images/instructor2.jpg" alt="">
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+
+                        </div>
+                        <h3>Maya</h3>
+                        
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="Images/instructor3.jpg" alt="">
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+
+                        </div>
+                        <h3>John</h3>
+                        
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="Images/instructor4.jpg" alt="">
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+
+                        </div>
+                        <h3>Sandy</h3>
+                        
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="Images/instructor5.jpg" alt="">
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+
+                        </div>
+                        <h3>Youssef</h3>
+                        
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="Images/instructor6.jpg" alt="">
+                        <div class="share">
+                            <a href="#" class="fab fa-facebook-f"></a>
+                            <a href="#" class="fab fa-twitter"></a>
+                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="#" class="fab fa-linkedin"></a>
+
+                        </div>
+                        <h3>Deniz</h3>
+                        
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+
+        </section>
+
+        <!--instructor section ends-->
+
+        <!--contact section starts -->
+        <section class="contact" id ="contact">
+            <h1 class="heading"><span>Contact Us </span> For Live Sessions</h1>
+            <div class="row">
+                <div class="image">
+                    <img src="Images/call.png" alt="">
+                </div>
+                <form action="" method="post">
+                    <span>Your Name</span>
+                    <input type="text" required placeholder="..." maxlength="50" name="name" class="box">
+                    <span>Your Email</span>
+                    <input type="email" required placeholder="..." maxlength="50" name="email" class="box">
+                    <span>Your Number</span>
+                    <input type="number" required placeholder="..." max="9999999999" min="0" name="name" class="box" onkeypress="if(this.value.length ==10) return false;">
+                    <span>Select Course</span>
+                    <select name="courses" class="box" required>
+                        <option value="" disabled selected>Select the course --</option>
+                        <option value="web development">Web Development</option>
+                        <option value="java">Java</option>
+                        <option value="security">Security</option>
+                        <option value="python">Python</option>
+                        <option value="haskell">Haskell</option>
+                        <option value="graphic design">Graphic Design</option>
+                    </select>    
+                    <span>Select Gender</span>
+                    <div class="radio">
+                        <input type="radio" name="gender" value="male" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="female" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <input type="sumbit" value="Send Message" class="btn" name="send">
+                </form>
+            </div>
+
+        </section>
+        <!--contact section ends-->
+
+        <!--footer section starts-->
+        <footer class="footer">
+            <section>
+                <div class="share">
+                    <a href="#"class="fab fa-facebook-f"></a>
+                    <a href="#"class="fab fa-twitter"></a>
+                    <a href="#"class="fab fa-linkedin"></a>
+                    <a href="#"class="fab fa-instagram"></a>
+                    <a href="#"class="fab fa-youtube"></a>
+                </div>
+                <div class="credit">&copy; copyright @2023 by <span>MMM</span> | all rights reserved!</div>
+            </section>
+
+        </footer>
+        <!--footer section ends-->
+
+        <!--swiper js link-->
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+        <!-- js file -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
